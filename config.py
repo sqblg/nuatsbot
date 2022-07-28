@@ -7,6 +7,6 @@ kline = dict(tickers = ['BTCUSDT', 'ETHBTC'],          # List of tickers. Leave 
 live_bot = dict(live = True,                   # Make the bot run on an infinite loop and perform the analysis every `sleep` seconds.
                 sleep = 20,                     # Sleep time for the live bot to not overload the Binance API.
                 threading = True,               # Multithreading boolean. Makes the Bot faster when set to True.
-                telegram_token = '8',            # Telegram token of the Bot created with BotFather
-                telegram_chat_id = [''],        # Telegram channel id
+                telegram_token = '852816659:AAFIXmwcd3s0KqXWjQ42A6g9OTC367X_xTs',            # Telegram token of the Bot created with BotFather
+                telegram_chat_id = ['469284226'],        # Telegram channel id
                 discord_web_hook = ['https://discord.com/api/webhooks/1002286132043714640/kYjKJcmP5IHCJCpCYOtHIetNSFUM4eSmiJGhHLjf7OpVpjuLwrEwjVn5qpt-lOWRfLAj'])        # Discord server webhook
